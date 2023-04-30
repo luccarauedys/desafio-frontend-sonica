@@ -3,13 +3,13 @@ import { CaretRight } from "@phosphor-icons/react";
 
 export default function Section2() {
   return (
-    <section className="container grid gap-12 grid-cols-1 md:grid-cols-3 relative">
+    <section className="container grid gap-12 grid-cols-1 md:grid-cols-3 relative md:py-12">
       <Image
         src={"/helix.png"}
         alt="helix icon"
-        width={320}
-        height={320}
-        className="hidden md:block absolute -z-10 top-0 -left-20 lg:-left-10"
+        width={400}
+        height={400}
+        className="hidden md:block w-[280px] lg:w-[400px] absolute -z-10 top-0 -left-20 lg:-left-10"
       />
       <div className="container md:col-span-2 flex flex-col gap-4 lg:gap-8">
         <h3>Community-owned and operated</h3>

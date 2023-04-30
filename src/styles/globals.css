@@ -41,4 +41,10 @@ body {
   .default-text-gradient {
     @apply text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300;
   }
+  .bg-icosahedron {
+    @apply bg-[url('/bg-icosahedron.png')] bg-contain bg-center bg-no-repeat;
+  }
+  .bg-thorus {
+    @apply bg-[url('/bg-thorus.png')] bg-contain bg-center bg-no-repeat;
+  }
 }

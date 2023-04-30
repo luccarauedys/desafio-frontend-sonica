@@ -14,7 +14,6 @@ export default function Header() {
       >
         CRONOS
       </Link>
-
       <nav className="hidden xl:flex xl:gap-10">
         {links.map((link) => (
           <Link
@@ -26,7 +25,6 @@ export default function Header() {
           </Link>
         ))}
       </nav>
-
       <Link
         href={"/"}
         className="hidden text-lg font-medium hover:text-gray-400 duration-500 lg:text-xl xl:flex xl:justify-center xl:items-center gap-1"
@@ -40,7 +38,6 @@ export default function Header() {
         onClick={() => setMenuIsOpen(true)}
         className="text-4xl cursor-pointer hover:scale-110 duration-500 xl:hidden"
       />
-
       {menuIsOpen && (
         <div className="fixed top-0 left-0 bottom-0 right-0 z-10 bg-[#050505] opacity-95">
           <XCircle

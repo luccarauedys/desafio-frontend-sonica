@@ -3,7 +3,7 @@ import Main from "@/components/Main";
 
 export default function Home() {
   return (
-    <div className="container mx-auto flex flex-col gap-8 lg:gap-16 px-4 md:px-8">
+    <div className="container mx-auto px-4 lg:px-8 flex flex-col gap-10 lg:gap-24">
       <Header />
       <Main />
     </div>
