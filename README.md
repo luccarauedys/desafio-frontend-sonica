@@ -9,7 +9,7 @@
 
 ## Tutorial de acesso
 
-Para visualizar a landing page, você pode acessar [este link]() ou clonar o projeto em sua máquina:
+Para visualizar a landing page, você pode acessar [este link](https://desafio-frontend-sonica.vercel.app/) ou clonar o projeto em sua máquina:
 
 ```
 git clone git@github.com:luccarauedys/desafio-frontend-sonica.git
