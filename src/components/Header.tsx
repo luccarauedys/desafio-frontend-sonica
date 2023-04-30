@@ -7,7 +7,7 @@ export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center px-4 py-8 lg:px-16 lg:py-12">
+    <header className="flex justify-between items-center h-[100px] lg:h-[130px]">
       <Link
         href={"/"}
         className="text-2xl lg:text-3xl font-semibold hover:text-slate-300 duration-500"
