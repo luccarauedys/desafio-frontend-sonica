@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { CaretRight, List, XCircle } from "@phosphor-icons/react";
-import { links } from "@/data/header_links";
+import { header_links } from "@/data/header_links";
 
 export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -15,7 +15,7 @@ export default function Header() {
         CRONOS
       </Link>
       <nav className="hidden xl:flex xl:gap-10">
-        {links.map((link) => (
+        {header_links.map((link) => (
           <Link
             key={link.title}
             href={link.path}
@@ -46,7 +46,7 @@ export default function Header() {
           />
 
           <div className="h-screen flex flex-col gap-5 items-center pt-24">
-            {links.map((link) => (
+            {header_links.map((link) => (
               <Link
                 key={link.title}
                 href={link.path}
