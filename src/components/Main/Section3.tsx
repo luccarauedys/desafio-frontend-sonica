@@ -5,7 +5,10 @@ import { benefits } from "@/data/cronos_hub_benefits";
 export default function Section3() {
   return (
     <section className="container md:pb-12 flex flex-col gap-8">
-      <div className="container flex flex-col gap-8 items-center text-center bg-thorus md:py-36 md:-mt-16 md:-mb-16">
+      <div
+        className="container flex flex-col gap-8 items-center text-center bg-thorus md:py-36 md:-mt-16 md:-mb-16"
+        data-aos="fade-up"
+      >
         <h4>Enter the Cronos Hub</h4>
         <h2>The Heart of the Interchain.</h2>
         <p>
@@ -16,7 +19,7 @@ export default function Section3() {
 
       <div className="container grid grid-cols-1 sm:grid-cols-2 gap-8">
         {benefits.map((item) => (
-          <div key={item.title} className="container flex flex-col gap-4">
+          <div key={item.title} className="container flex flex-col gap-4" data-aos="fade-up">
             <Image
               src={item.icon_path}
               alt={`${item.title} icon`}
@@ -30,7 +33,7 @@ export default function Section3() {
             </p>
           </div>
         ))}
-        <div className="container sm:w-72">
+        <div className="container sm:w-72" data-aos="fade-up">
           <button className="container flex justify-center items-center gap-2 primary-button">
             <span>Cosmos Hub</span>
             <CaretRight size={18} weight="bold" />

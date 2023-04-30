@@ -10,8 +10,9 @@ export default function Section2() {
         width={400}
         height={400}
         className="hidden md:block w-[280px] lg:w-[400px] absolute -z-10 top-0 -left-20 lg:-left-10"
+        data-aos="fade-right"
       />
-      <div className="container md:col-span-2 flex flex-col gap-4 lg:gap-8">
+      <div className="container md:col-span-2 flex flex-col gap-4 lg:gap-8" data-aos="fade-right">
         <h4>Community-owned and operated</h4>
         <h2>Enter a Universe of Connected Services.</h2>
         <p className="max-w-none">
@@ -27,7 +28,10 @@ export default function Section2() {
         </div>
       </div>
 
-      <div className="container flex flex-col sm:flex-row md:flex-col gap-8 sm:gap-12 justify-center text-center">
+      <div
+        className="container flex flex-col sm:flex-row md:flex-col gap-8 sm:gap-12 justify-center text-center"
+        data-aos="fade-left"
+      >
         <div>
           <p className="text-5xl lg:text-7xl font-extrabold default-text-gradient">265+</p>
           <p>Apps & services</p>
