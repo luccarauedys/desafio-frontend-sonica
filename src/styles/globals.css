@@ -24,10 +24,13 @@ body {
     @apply text-3xl lg:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400;
   }
   h3 {
+    @apply text-xl lg:text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400;
+  }
+  h4 {
     @apply uppercase text-xl lg:text-2xl font-semibold opacity-60;
   }
   p {
-    @apply text-xl lg:text-2xl max-w-2xl;
+    @apply text-base sm:text-lg md:text-xl lg:text-2xl max-w-2xl;
   }
 }
 

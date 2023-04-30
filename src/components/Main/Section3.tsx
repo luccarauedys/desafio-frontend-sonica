@@ -6,7 +6,7 @@ export default function Section3() {
   return (
     <section className="container md:pb-12 flex flex-col gap-8">
       <div className="container flex flex-col gap-8 items-center text-center bg-thorus md:py-36 md:-mt-16 md:-mb-16">
-        <h3>Enter the Cronos Hub</h3>
+        <h4>Enter the Cronos Hub</h4>
         <h2>The Heart of the Interchain.</h2>
         <p>
           Serving as the economic center of Cronos, the Cronos Hub is a blockchain that provides
